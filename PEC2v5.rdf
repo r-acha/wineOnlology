@@ -12,7 +12,7 @@
     <owl:Ontology rdf:about="http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4">
         <rdfs:authors>Ricardo Arcega Aperte
 Roberto Acha Paz</rdfs:authors>
-        <rdfs:name rdf:resource="https://w3id.org/def/wineOntology"/>
+        <rdfs:name rdf:resource="https://w3id.org/def/SpainWineOntology"/>
     </owl:Ontology>
     
 
