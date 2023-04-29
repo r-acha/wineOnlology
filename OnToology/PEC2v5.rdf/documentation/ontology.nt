@@ -1,0 +1,671 @@
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4> <http://www.w3.org/2000/01/rdf-schema#authors> "Ricardo Arcega Aperte\nRoberto Acha Paz" .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4> <http://www.w3.org/2000/01/rdf-schema#name> <https://w3id.org/def/wineOntology> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2000/01/rdf-schema#authors
+<http://www.w3.org/2000/01/rdf-schema#authors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2000/01/rdf-schema#name
+<http://www.w3.org/2000/01/rdf-schema#name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2000/01/rdf-schema#sameAs
+<http://www.w3.org/2000/01/rdf-schema#sameAs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.w3.org/2000/01/rdf-schema#sameAs> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2000/01/rdf-schema#comment> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#acidityOf
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#acidityOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#acidityOf> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#acidityOf> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasAcidity> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#acidityOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Acidity> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#acidityOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Wine> .
+# 
+# http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#bodyOf
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#bodyOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#bodyOf> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasBody> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#bodyOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Body> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#bodyOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Wine> .
+# 
+# http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasAcidity
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasAcidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasAcidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasAcidity> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Wine> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasAcidity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Acidity> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasAcidity> <http://www.w3.org/2000/01/rdf-schema#comment> "Todo vino tiene una acided declarada" .
+# 
+# http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasBody
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasBody> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasBody> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasBody> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Wine> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasBody> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Body> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasBody> <http://www.w3.org/2000/01/rdf-schema#comment> "Todo vino tiene un cuerpo declarado" .
+# 
+# http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasMeasurements
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasMeasurements> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasMeasurements> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#measurementsOf> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasMeasurements> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasMeasurements> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Wine> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasMeasurements> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Measurements> .
+# 
+# http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasRegion
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasRegion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasRegion> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#regionOf> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasRegion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasRegion> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Wine> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasRegion> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Region> .
+# 
+# http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasType
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasType> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#typeOf> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasType> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Wine> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasType> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Type> .
+# 
+# http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasWinery
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasWinery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasWinery> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasWinery> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#wineryOf> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasWinery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasWinery> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Wine> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasWinery> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Winery> .
+# 
+# http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#measurementsOf
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#measurementsOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#measurementsOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Measurements> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#measurementsOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Wine> .
+# 
+# http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#regionOf
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#regionOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#regionOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Region> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#regionOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Wine> .
+# 
+# http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#typeOf
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#typeOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#typeOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Type> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#typeOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Wine> .
+# 
+# http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#wineryOf
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#wineryOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#wineryOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Winery> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#wineryOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Wine> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasAcidityValue
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasAcidityValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasAcidityValue> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Acidity> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasAcidityValue> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasBodyValue
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasBodyValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasBodyValue> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Body> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasBodyValue> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasCapacity
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasCapacity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasCapacity> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Wine> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasCapacity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasName
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Wine> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasYear
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasYear> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasYear> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasYear> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Wine> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasYear> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Above_100
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Above_100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Above_100> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid1 .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid1 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid3 .
+_:genid3 <http://www.w3.org/2002/07/owl#complementOf> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Normal> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid5 .
+_:genid5 <http://www.w3.org/2002/07/owl#complementOf> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Eol_than_15> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Price> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Above_100> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Price> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Above_100> <http://www.w3.org/2002/07/owl#disjointUnionOf> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid7 .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Normal> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Eol_than_15> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Above_100> <http://www.w3.org/2000/01/rdf-schema#comment> "Precio superior a 100" .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Above_100> <http://www.w3.org/2000/01/rdf-schema#label> "Above_100" .
+# 
+# http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Acid
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Acid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Acid> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid9 .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid9 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid12 .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid10 .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid11 .
+_:genid11 <http://www.w3.org/2002/07/owl#complementOf> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#No_acid> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Wine> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Acid> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#No_acid> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Acid> <http://www.w3.org/2000/01/rdf-schema#comment> "Vino acido" .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Acid> <http://www.w3.org/2000/01/rdf-schema#label> "Acid" .
+# 
+# http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Acidity
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Acidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Acidity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Measurements> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Acidity> <http://www.w3.org/2000/01/rdf-schema#comment> "Clase que modela la acidez del vino" .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Acidity> <http://www.w3.org/2000/01/rdf-schema#label> "Acidity" .
+# 
+# http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Body
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Body> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Body> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Measurements> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Body> <http://www.w3.org/2000/01/rdf-schema#comment> "Clase que engloba los diferentes niveles del cuerpo del vino" .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Body> <http://www.w3.org/2000/01/rdf-schema#label> "Body" .
+# 
+# http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Eol_than_15
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Eol_than_15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Eol_than_15> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid13 .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid13 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid18 .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid16 .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid14 .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid15 .
+_:genid15 <http://www.w3.org/2002/07/owl#complementOf> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Normal> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid17 .
+_:genid17 <http://www.w3.org/2002/07/owl#complementOf> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Above_100> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Price> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Eol_than_15> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Price> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Eol_than_15> <http://www.w3.org/2002/07/owl#disjointUnionOf> _:genid20 .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid19 .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Normal> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Above_100> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Eol_than_15> <http://www.w3.org/2000/01/rdf-schema#comment> "Vino economico menor de 15" .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Eol_than_15> <http://www.w3.org/2000/01/rdf-schema#label> "Eol_than_15" .
+# 
+# http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Heavy
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Heavy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Heavy> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid21 .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid21 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid26 .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid24 .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid22 .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid23 .
+_:genid23 <http://www.w3.org/2002/07/owl#complementOf> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Medium> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid25 .
+_:genid25 <http://www.w3.org/2002/07/owl#complementOf> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Light> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Body> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Heavy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Body> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Heavy> <http://www.w3.org/2002/07/owl#disjointUnionOf> _:genid28 .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid27 .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Medium> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Light> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Heavy> <http://www.w3.org/2000/01/rdf-schema#comment> "Clase que recoge los vino de mayor cuerpo" .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Heavy> <http://www.w3.org/2000/01/rdf-schema#label> "Heavy" .
+# 
+# http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#High_acidity
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#High_acidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#High_acidity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Acidity> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#High_acidity> <http://www.w3.org/2000/01/rdf-schema#comment> "Subclase que enbloba los vinos más acidos" .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#High_acidity> <http://www.w3.org/2000/01/rdf-schema#label> "High_acidity" .
+# 
+# http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Light
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Light> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Light> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid29 .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid29 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid34 .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid32 .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid30 .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid31 .
+_:genid31 <http://www.w3.org/2002/07/owl#complementOf> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Medium> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid33 .
+_:genid33 <http://www.w3.org/2002/07/owl#complementOf> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Heavy> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Body> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Light> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Body> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Light> <http://www.w3.org/2002/07/owl#disjointUnionOf> _:genid36 .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid35 .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Medium> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Heavy> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Light> <http://www.w3.org/2000/01/rdf-schema#comment> "Clase que identifica los vinso de menor cuerpo" .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Light> <http://www.w3.org/2000/01/rdf-schema#label> "Light" .
+# 
+# http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Measurements
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Measurements> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Measurements> <http://www.w3.org/2000/01/rdf-schema#comment> "Mediciones o valores asociados a caracteristicas del vino" .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Measurements> <http://www.w3.org/2000/01/rdf-schema#label> "Measurements" .
+# 
+# http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Medium
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Medium> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Medium> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid37 .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid37 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid42 .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid40 .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid38 .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid39 .
+_:genid39 <http://www.w3.org/2002/07/owl#complementOf> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Light> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid41 .
+_:genid41 <http://www.w3.org/2002/07/owl#complementOf> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Heavy> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Body> .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Medium> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Body> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Medium> <http://www.w3.org/2002/07/owl#disjointUnionOf> _:genid44 .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid43 .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Light> .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Heavy> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Medium> <http://www.w3.org/2000/01/rdf-schema#comment> "Clase que identifica los vinso de medio cuerpo" .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Medium> <http://www.w3.org/2000/01/rdf-schema#label> "Medium" .
+# 
+# http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#No_acid
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#No_acid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#No_acid> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid45 .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid45 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid48 .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid46 .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid47 .
+_:genid47 <http://www.w3.org/2002/07/owl#complementOf> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Acid> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Wine> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#No_acid> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Acid> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#No_acid> <http://www.w3.org/2000/01/rdf-schema#comment> "Vino no acido" .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#No_acid> <http://www.w3.org/2000/01/rdf-schema#label> "No_acid" .
+# 
+# http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Normal
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Normal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Normal> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid49 .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid49 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid54 .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid52 .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid50 .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid51 .
+_:genid51 <http://www.w3.org/2002/07/owl#complementOf> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Eol_than_15> .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid53 .
+_:genid53 <http://www.w3.org/2002/07/owl#complementOf> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Above_100> .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Price> .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Normal> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Price> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Normal> <http://www.w3.org/2002/07/owl#disjointUnionOf> _:genid56 .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid55 .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Eol_than_15> .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Above_100> .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Normal> <http://www.w3.org/2000/01/rdf-schema#comment> "Normal price wine" .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Normal> <http://www.w3.org/2000/01/rdf-schema#label> "Normal" .
+# 
+# http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Num_reviews
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Num_reviews> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Num_reviews> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Measurements> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Num_reviews> <http://www.w3.org/2000/01/rdf-schema#comment> "Numero de reviews sobre el vino" .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Num_reviews> <http://www.w3.org/2000/01/rdf-schema#label> "Num_reviews" .
+# 
+# http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Price
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Price> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Price> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Measurements> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Price> <http://www.w3.org/2000/01/rdf-schema#comment> "Precio del vino" .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Price> <http://www.w3.org/2000/01/rdf-schema#label> "Price" .
+# 
+# http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Rating
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Rating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Rating> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Measurements> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Rating> <http://www.w3.org/2000/01/rdf-schema#comment> "Clase con las valoraciones del vino" .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Rating> <http://www.w3.org/2000/01/rdf-schema#label> "Rating" .
+# 
+# http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Red
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Red> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Red> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Type> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Red> <http://www.w3.org/2000/01/rdf-schema#comment> "Vino Tinto" .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Red> <http://www.w3.org/2000/01/rdf-schema#label> "Red" .
+# 
+# http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Region
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Region> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Region> <http://www.w3.org/2000/01/rdf-schema#comment> "Coresponden con las Denominaciones de origen españolas" .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Region> <http://www.w3.org/2000/01/rdf-schema#label> "Region" .
+# 
+# http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#TOP
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#TOP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#TOP> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Rating> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#TOP> <http://www.w3.org/2000/01/rdf-schema#comment> "Clase TOP vino mejor valorado" .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#TOP> <http://www.w3.org/2000/01/rdf-schema#label> "TOP" .
+# 
+# http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Type
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Type> <http://www.w3.org/2000/01/rdf-schema#comment> "Tipos de vinos" .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Type> <http://www.w3.org/2000/01/rdf-schema#label> "Type" .
+# 
+# http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Wine
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Wine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Wine> <http://www.w3.org/2000/01/rdf-schema#comment> "Calse vino" .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Wine> <http://www.w3.org/2000/01/rdf-schema#label> "Wine" .
+# 
+# http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Winery
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Winery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Winery> <http://www.w3.org/2000/01/rdf-schema#comment> "Bodega encargada de producir el vino" .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Winery> <http://www.w3.org/2000/01/rdf-schema#label> "Winery" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Acidity_1
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Acidity_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Acidity_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Acidity> .
+# 
+# http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Acidity_2
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Acidity_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Acidity_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Acidity> .
+# 
+# http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Acidity_3
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Acidity_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Acidity_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Acidity> .
+# 
+# http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Acidity_4
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Acidity_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Acidity_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Acidity> .
+# 
+# http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Acidity_5
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Acidity_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Acidity_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Acidity> .
+# 
+# http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Body_1
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Body_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Body_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Body> .
+# 
+# http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Body_2
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Body_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Body_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Body> .
+# 
+# http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Body_3
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Body_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Body_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Body> .
+# 
+# http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Body_4
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Body_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Body_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Body> .
+# 
+# http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Body_5
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Body_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Body_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Body> .
+# 
+# http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Region_1
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Region_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Region_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Region> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Region_1> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasName> "Rias Baixas" .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Region_1> <http://www.w3.org/2000/01/rdf-schema#sameAs> "http://es.dbpedia.org/resource/R%C3%ADas_Baixas_(vino)"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+# 
+# http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Region_2
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Region_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Region_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Region> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Region_2> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasName> "Ribera del Duero" .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Region_2> <http://www.w3.org/2000/01/rdf-schema#sameAs> "http://es.dbpedia.org/resource/Ribera_del_Duero_(vino)"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+# 
+# http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Region_3
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Region_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Region_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Region> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Region_3> <http://www.w3.org/2000/01/rdf-schema#sameAs> "http://es.dbpedia.org/resource/Bierzo_(vino)"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+# 
+# http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Vino_1
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Vino_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Vino_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Wine> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Vino_1> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasAcidity> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Acidity_1> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Vino_1> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasBody> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Body_1> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Vino_1> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasCapacity> "70"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Vino_1> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasName> "Martin Codax Espumoso" .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Vino_1> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasYear> "2022"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+# 
+# http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Vino_2
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Vino_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Vino_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Wine> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Vino_2> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasAcidity> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Acidity_2> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Vino_2> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasBody> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Body_2> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Vino_2> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasCapacity> "70"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Vino_2> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasName> "Alma Atlántica Albariño" .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Vino_2> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasYear> "2022"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Vino_3
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Vino_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Vino_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Wine> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Vino_3> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasAcidity> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Acidity_3> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Vino_3> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasBody> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Body_3> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Vino_3> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasCapacity> "70"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Vino_3> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasName> "Cinco Islas" .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Vino_3> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasYear> "2023"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Vino_4
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Vino_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Vino_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Wine> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Vino_4> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasAcidity> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Acidity_4> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Vino_4> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasBody> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Body_4> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Vino_4> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasCapacity> "70"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Vino_4> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasName> "Cuesta de Las Liebres" .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Vino_4> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasYear> "2023"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+# 
+# http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Vino_5
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Vino_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Vino_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Wine> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Vino_5> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasAcidity> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Acidity_5> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Vino_5> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasBody> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Body_5> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Vino_5> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasCapacity> "70"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Vino_5> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasName> "La Faraona Bierzo" .
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Vino_5> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasYear> "2023"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Annotations
+# #
+# #################################################################
+# 
+# 
+<http://www.w3.org/2000/01/rdf-schema#name> <http://www.w3.org/2000/01/rdf-schema#name> "wineOnto" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Rules
+# #
+# #################################################################
+# 
+# 
+<urn:swrl:var#o> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<urn:swrl:var#w> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid57 <http://www.w3.org/2003/11/swrl#body> _:genid64 .
+_:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid62 .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid58 .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid59 .
+_:genid59 <http://www.w3.org/2003/11/swrl#arguments> _:genid61 .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid60 .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <urn:swrl:var#w> .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid59 <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#greaterThan> .
+<http://www.w3.org/2003/11/swrlb#greaterThan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Builtin> .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#BuiltinAtom> .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid63 .
+_:genid63 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#w> .
+_:genid63 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o> .
+_:genid63 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasAcidity> .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid65 .
+_:genid65 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o> .
+_:genid65 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Acidity> .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid57 <http://www.w3.org/2003/11/swrl#head> _:genid66 .
+_:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid67 .
+_:genid67 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o> .
+_:genid67 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#High_acidity> .
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid68 <http://www.w3.org/2003/11/swrl#body> _:genid75 .
+_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid73 .
+_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid69 .
+_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid70 .
+_:genid70 <http://www.w3.org/2003/11/swrl#arguments> _:genid72 .
+_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid71 .
+_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <urn:swrl:var#w> .
+_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid70 <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#lessThan> .
+<http://www.w3.org/2003/11/swrlb#lessThan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Builtin> .
+_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#BuiltinAtom> .
+_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid74 .
+_:genid74 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#w> .
+_:genid74 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o> .
+_:genid74 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasBody> .
+_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid76 .
+_:genid76 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o> .
+_:genid76 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Body> .
+_:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid68 <http://www.w3.org/2003/11/swrl#head> _:genid77 .
+_:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid78 .
+_:genid78 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o> .
+_:genid78 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Light> .
+_:genid78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid79 <http://www.w3.org/2003/11/swrl#body> _:genid86 .
+_:genid86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid84 .
+_:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid80 .
+_:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid81 .
+_:genid81 <http://www.w3.org/2003/11/swrl#arguments> _:genid83 .
+_:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid82 .
+_:genid82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:genid82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <urn:swrl:var#w> .
+_:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid81 <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#greaterThan> .
+_:genid81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#BuiltinAtom> .
+_:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid85 .
+_:genid85 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#w> .
+_:genid85 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o> .
+_:genid85 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasBody> .
+_:genid85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid87 .
+_:genid87 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o> .
+_:genid87 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Body> .
+_:genid87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid79 <http://www.w3.org/2003/11/swrl#head> _:genid88 .
+_:genid88 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid88 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid89 .
+_:genid89 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o> .
+_:genid89 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Heavy> .
+_:genid89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid88 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
